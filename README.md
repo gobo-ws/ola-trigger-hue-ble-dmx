@@ -1,6 +1,6 @@
 **DMX-Hue BLE - OLA trigger config to control Philips Hue BLE lights with DMX (Art-Net, sACN or via DMX input) - work in progress** 
 
-Like others I can control Philips Hue BLE bulbs using nRF Connect on Android but I still have some problems with gatttool on Raspbian.
+Like others I can control Philips Hue BLE lights using nRF Connect on Android but I still have some problems with gatttool on Raspbian.
 I can pair the bulb though.
 
 `gatttool -t random -b [MAC] --char-write-req --handle=0x0027 --value=01`
